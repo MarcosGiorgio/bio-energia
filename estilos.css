@@ -1,0 +1,120 @@
+*{ 
+    margin: 0;
+    box-sizing: border-box;
+    font-family: bahnschrift Ligt;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+   
+}
+
+.header {
+    background-color: teal;
+    height: 90px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.nav {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 0 50px;
+    line-height: 80px;
+    transform: scale(1.1);
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item {
+    font-size: 15px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link:hover {
+    color: #034574;
+    transform: scale(1.1);
+}
+
+.titulo {
+    text-align: center;
+    color:teal;
+    font-weight: bolder;
+    margin: 25px;
+}
+
+.introducción {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:grey;
+    font-weight: bold;
+}
+
+.Hipótesis {
+    background-color:#34495E;
+    color: white;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+
+}
+
+.foto {
+    margin: 0 50px;
+}
+
+#todoempezo {
+    color: #D35400;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Hipótesis1 {
+    background-color:#D35400 ;
+    color: white;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+.parrafo1 {
+    margin: 0 30px;
+}
+
+.logo2 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 50px;
+    line-height: 80px;
+    transform: scale(1.1);
+    margin: 0 30px;
+    background-color: teal;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
